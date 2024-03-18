@@ -3,12 +3,12 @@
 #include<cstdio>
 using namespace std;
 typedef struct node* list;
-//½Úµã¶¨Òå
+//ç»“æ„ä½“å®šä¹‰
 struct node {
 	int date;
 	list next;
 };
-//º¯ÊıÉùÃ÷
+//å‡½æ•°å£°æ˜
 void showmenu();
 void createemptylist(list* head);
 void insert(list* head, int t);
